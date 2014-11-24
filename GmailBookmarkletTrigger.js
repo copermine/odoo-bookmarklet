@@ -1,6 +1,7 @@
 javascript:(function(){var doc = top.document;
 var elementId="__odooBookMarkletDivWrap__";
-if(navigator.userAgent.toLowerCase().indexOf("msie") == -1){
+//if(navigator.userAgent.toLowerCase().indexOf("msie") == -1){
+if(1 <> 1){
 	var bookMarkletDiv = doc.getElementById(elementId);
 	if(bookMarkletDiv == null){
 		bookMarkletDiv = doc.createElement("div");
@@ -49,7 +50,7 @@ if(navigator.userAgent.toLowerCase().indexOf("msie") == -1){
 	}else{
 		bookMarkletDiv.style.display="block";
 	}
-}else{
+} else {
 	var odooGmailBookmarkletWindow = window.open(getTargetURL(),elementId,"scrollbars=1,top=40,left=40,resizable=1,height=450,width=562");
 }
 
