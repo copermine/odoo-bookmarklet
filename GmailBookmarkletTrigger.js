@@ -1,7 +1,7 @@
 javascript:(function(){var doc = top.document;
 var elementId="__odooBookMarkletDivWrap__";
 //if(navigator.userAgent.toLowerCase().indexOf("msie") == -1){
-if(1 <> 1){
+if(1 != 1){
 	var bookMarkletDiv = doc.getElementById(elementId);
 	if(bookMarkletDiv == null){
 		bookMarkletDiv = doc.createElement("div");
